@@ -11,11 +11,11 @@ Unzip the downladed archive file.
 
 Run digicol_twitter_archive_to_xml.php to view one of the JSON tweet data files as XML:
 
-  php digicol_twitter_archive_to_xml.php tweets/data/js/tweets/2013_01.js
+    php digicol_twitter_archive_to_xml.php tweets/data/js/tweets/2013_01.js
 
 If you want to, convert all of the tweet data files to XML files (.xml in the same directory):
 
-  php digicol_twitter_archive_to_xml.php --write tweets/data/js/tweets/*.js
+    php digicol_twitter_archive_to_xml.php --write tweets/data/js/tweets/*.js
 
 Requires PHP 5.2 or later.
 
